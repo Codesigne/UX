@@ -55,6 +55,7 @@ body {
                 &:hover {
                     // box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.1);
                     filter: grayscale(0);
+                    border-color: #9ae645 cadetblue;
                 }
             }
         }
@@ -88,6 +89,7 @@ body {
                     transition-property: background;
                     &:hover {
                         background: cadetblue;
+                        border-color: #9ae645;
                     }
                 }
             }

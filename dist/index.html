@@ -32,19 +32,26 @@
                 /*transition-duration: .3s;*/
             }
             .projects {
-                display: grid;
-                justify-items: center;
-                align-items: end;
-                justify-content: center;
-                align-content: center;
-                grid-template-columns: calc(100vw / 3) auto calc(100vw / 3);
-                height: 100%;
-                height: calc(100vh - 100px);
-                width: 100%;
                 text-align: center;
+            }
+            @media screen and (min-width: 769px) {
+                .projects {
+                    display: grid;
+                    justify-items: center;
+                    align-items: end;
+                    justify-content: center;
+                    align-content: center;
+                    grid-template-columns: calc(100vw / 3) auto calc(100vw / 3);
+                    height: 100%;
+                    height: calc(100vh - 100px);
+                    width: 100%;
+                }
             }
             .projects img {
                 width: 100%;
+            }
+            .projects h3 {
+                padding-bottom: 5rem;
             }
         </style>
     </head>
@@ -57,7 +64,10 @@
                         <img class="circle circle--1" src="./img/prafull.png" alt="Prafull karanje | Full-stack Designer | UI | UX | Front-end Developer" />
                     </div>
                     <div class="my__name font--Poiret">Prafull Karanje</div>
-                    <div class="my__identity font--Fjalla">Full-stack Designer</div>
+                    <div class="my__identity font--Fjalla">
+                        Full-stack <br />
+                        Designer/developer
+                    </div>
                     <div class="my__links">
                         <ul>
                             <li class="circle circle--1">

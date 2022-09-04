@@ -9,13 +9,19 @@
         <link rel="stylesheet" href="css/app.css" />
         <style type="text/css">
             nav {
-                margin-top: -105px;
+                /* margin-top: -105px; */
                 display: flex;
                 flex-direction: row;
                 align-content: center;
                 justify-content: center;
                 align-items: center;
                 font-size: 1.5rem;
+                /* 
+                 */
+
+                border: solid 1px lightgrey;
+                border-width: 1px 0;
+                padding: 1rem;
             }
             nav a {
                 padding: 0 20px;
@@ -25,10 +31,28 @@
                 /*padding: 0 20px;*/
                 padding-top: 40px;
             }
+            .page--home .my {
+                display: grid;
+                height: 100%;
+                height: calc(100vh - 8rem);
+                width: 100%;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                grid-template-rows: auto auto;
+            }
+            .my__identity {
+                margin-top: 2rem;
+            }
         </style>
     </head>
 
     <body class="font--Poiret">
+        <nav id="navbar">
+            <a href="./Prafull_Karanje_full_stack_designer_UI_UX_developer_2022_09_04.pdf" download target="_blank">Resume</a>
+            <a href="./index.html">Home</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
         <main>
             <section class="page--home">
                 <div class="my">
@@ -36,12 +60,12 @@
 
                     <div class="my__identity font--Fjalla"><b>Email: </b><a href="mailto:prafullkaranje@gmail.com">prafullkaranje@gmail.com</a></div>
                 </div>
-                <nav>
-                    <a href="./Prafull_Karanje_full_stack_designer_UI_UX_developer_2022_09_04.pdf" download target="_blank">Resume</a>
-                    <b><a href="./index.html">Home</a></b>
-                    <a href="">Contact</a>
-                </nav>
             </section>
         </main>
+        <!-- <nav>
+            <a href="./Prafull_Karanje_full_stack_designer_UI_UX_developer_2022_09_04.pdf" download target="_blank">Resume</a>
+            <b><a href="./index.html">Home</a></b>
+            <a href="">Contact</a>
+        </nav> -->
     </body>
 </html>
