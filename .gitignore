@@ -53,3 +53,5 @@ GitHub.sublime-settings
 #node_modules
 node_modules
 # End of https://www.gitignore.io/api/sass,sublimetext,visualstudiocode
+
+*.todo
