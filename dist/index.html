@@ -53,12 +53,16 @@
             .projects h3 {
                 padding-bottom: 5rem;
             }
+            #landing_bg{
+                width: 100vw !important;
+            }
         </style>
     </head>
 
     <body class="font--Poiret">
         <main>
-            <section class="page--home">
+            <canvas id="landing_bg"></canvas>
+            <section class="page--home" style="position: absolute; top: 0; width: 100%;">
                 <div class="my">
                     <div class="my__photo">
                         <img class="circle circle--1" src="./img/prafull.png" alt="Prafull karanje | Full-stack Designer | UI | UX | Front-end Developer" />
@@ -139,5 +143,6 @@
             </section>
         </main>
     </body>
+    <script src="./js/landing_bg.js"></script>
     <script></script>
 </html>
