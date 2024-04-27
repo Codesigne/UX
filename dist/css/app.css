@@ -513,7 +513,7 @@ a.text--c-1::first-letter {
 @media (prefers-color-scheme: dark) {
   body {
     color: white;
-    background-color: black;
+    background-color: hsl(0, 0%, 20%);
   }
 }
 
